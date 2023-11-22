@@ -1,0 +1,169 @@
+body{
+    background-color: rgba(0, 0, 0, 0.825);
+}
+.logo-nav{
+    width:5rem;
+    object-fit: cover;
+}
+.nav-link{
+    align-self: center;
+}
+/* Custom CSS for the hero section */
+.vid1{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+
+/* Style for the transparent navigation bar */
+.transparent-nav {
+    background-color: rgba(0,
+            0,
+            0,
+            0.002);
+    /* More transparent black background */
+    backdrop-filter: blur(3px);
+    /* Apply a blur effect to the background */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    /* Place the navigation bar in front of the background image */
+}
+
+/* Style for the right-aligned navigation links */
+.navbar-nav {
+    margin-left: auto;
+    font-size: larger;
+    border-radius: 3%;
+    background-color: rgba(77, 77, 77, 0.556);
+    z-index: 2;
+    
+}
+.nav-item {
+    margin-right: 15px;
+    z-index: 5;
+}
+/* Style for the hero content */
+.hero-content {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    /* Place the hero content in front of the slider */
+    color: rgba(255, 255, 255, 0.864);
+    /* Adjust the color as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Add a subtle text shadow */
+}
+
+/* Style for the hero title */
+.hero-title {
+    text-shadow: 2px 2px #ffffff;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Nightbird Extra Condensed W00;
+    color: rgb(0, 0, 0);
+}
+
+/* Style for the hero quote */
+.hero-quote {
+    font-size: 18px;
+}
+#featured,#shops{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 4rem;
+    color: azure;
+    font-family: "Times New Roman";
+}
+/* Custom CSS for the Featured Section */
+.swiper-container-featured {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    /* Center the slider horizontally */
+    display: flex;
+    /* Use flexbox to keep slides in a single row */
+    flex-wrap: nowrap;
+    /* Prevent slides from wrapping to a new row */
+    overflow: hidden;
+    /* Hide overflow to prevent scrollbars */
+}
+
+.swiper-wrapper {
+    display: flex;
+    /* Use flexbox for the slide container */
+    flex-wrap: nowrap;
+    /* Prevent slides from wrapping to a new row */
+    width: 100%;
+    /* Ensure that the slide container takes up the full width */
+    padding-bottom: 4px;
+}
+
+.swiper-slide-featured {
+    flex: 0 0 auto;
+    /* Allow slides to flex, but maintain their size */
+    width: calc(100% / 5);
+    /* Each slide occupies 25% of the container width */
+    height: 400px;
+    /* Fixed height for the featured slides */
+    margin-right: 0;
+    /* Add margin for spacing between slides */
+    background-size: cover;
+    background-position: center;
+}
+.shop-logo{
+    display: inline-flex;
+    width: 100%;
+    padding:0%;
+    margin-left: 0%;
+    overflow: hidden;
+}
+.container-fluid-footer {
+    background-color: #333;
+    /* Set background color */
+    color: #fff;
+    /* Set text color */
+    padding: 20px;
+    /* Add some padding for spacing */
+    text-align: center;
+    /* Center align text */
+    position: absolute;
+    /* Position at the bottom */
+    width: 100%;
+    /* Full width */
+    object-position: bottom;
+    /* Stick to the bottom */
+}
+
+/* Style for contact info */
+.contact-info {
+    margin-top: 10px;
+    color: #ccc;
+    /* Adjust text color for contact info */
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Style for logo holder */
+.logo-holder {
+    margin-top: 20px;
+    /* Adjust margin for spacing */
+}
+
+.logo-holder img {
+    max-width: 100px;
+    /* Adjust the maximum width of the logo */
+    height: auto;
+    /* Maintain aspect ratio */
+}
