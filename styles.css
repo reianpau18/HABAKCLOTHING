@@ -111,7 +111,7 @@ body{
 .swiper-slide-featured {
     flex: 0 0 auto;
     /* Allow slides to flex, but maintain their size */
-    width: calc(100% / 3);
+    width: calc(100% / 4);
     /* Each slide occupies 25% of the container width */
     height: 400px;
     /* Fixed height for the featured slides */
