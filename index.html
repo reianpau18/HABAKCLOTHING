@@ -333,8 +333,12 @@ This description highlights the key features and benefits of your T-shirt, makin
 
       var featuredSwiper = new Swiper(".swiper-container-featured", {
         slidesPerView: 1, // Display only 1 slide per view
-        spaceBetween: 20, // Space between slides
+        spaceBetween: 15, // Space between slides
         slidesPerGroup: 1, // Number of slides to scroll per click
+        initialSlide: 2
+        autoplay: {
+          delay: 5000,
+        },
         pagination: {
           el: ".swiper-pagination-featured",
           clickable: true,
